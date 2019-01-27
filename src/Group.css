@@ -1,5 +1,5 @@
 .container{
-  max-width: 500px;
+  max-width: 550px;
   max-height: 200px;
 }
 
@@ -7,7 +7,7 @@
     border-radius: 25px;
 }
 
-.skip {
+.go {
     margin-left : 130px;
     width: 20%;
     background-color : white;
@@ -18,12 +18,12 @@
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-.skip:hover {
+.go:hover {
   border: 2px solid #4CAF50;
   background-color : white;
 }
 
-.go {
+.skip {
   margin-left : 20px;   
   background-color: white;
   width: 20%;
@@ -35,7 +35,7 @@
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   }
 
-.go:hover {
+.skip:hover {
       border: 2px solid red ;
       background-color : white;
   }
@@ -60,4 +60,9 @@
 
 .phone:hover {
     background-color : white;
+}
+
+.image{
+    width: 475px;
+    height: 400px;
 }
