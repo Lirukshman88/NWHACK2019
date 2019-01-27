@@ -22,6 +22,8 @@ class Single extends Component {
     }
   }
 
+
+  
   componentDidMount() {
     {this.getData()}
   }
