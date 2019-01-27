@@ -1,20 +1,67 @@
 .container {
     max-width: 550px;
     max-height: 600px;
+    
+}
+
+.card{
+    border-radius: 25px;
+}
+
+.title {
+    size: 12px;
+}
+.stars{
+    padding-bottom: 10px;
+    float: right;
+}
+.subtitle{
+    padding-bottom: 10px;
+}
+
+.call{
+    
+    width: 30%;
+    background-color:white;
+}
+
+.call:hover {
+    background-color : white;
 }
 
 
-.button1 {
-    float: right
-  }
-
   .button2 {
-      margin-left : 140px;
-      border: 1px;
+      margin-left : 130px;
+      width: 20%;
+      background-color : white;
+      border: 1px;     
+      margin-top: 25px;
+      border-radius: 8px;
+      opacity: 0.8;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  
+  .button2:hover {
+    border: 2px solid #4CAF50;
+    background-color : white;
+
   }
 
-  
+
   .button3 {
-    margin-left : 20px;
-    border: 1px;
+    margin-left : 20px;   
+    background-color: white;
+    width: 20%;
+    border: 1px;    
+    margin-top: 25px;
+    border-radius: 8px;
+    opacity: 0.8;
+    /*transition: 0.5s;*/
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button3:hover {
+    border: 2px solid red ;
+    background-color : white;
+
 }
