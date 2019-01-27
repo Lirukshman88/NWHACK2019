@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Button, Navbar, NavItem, Nav} from 'react-bootstrap';
+import {Navbar, NavItem, Nav} from 'react-bootstrap';
 import {Route, NavLink, HashRouter, Switch} from "react-router-dom";
 import Single from "./Single.jsx";
 import Group from "./Group.jsx";
@@ -19,8 +19,8 @@ class App extends Component {
                 <NavLink to = "/">Home</NavLink>
               </Navbar.Brand>
             </Navbar.Header>
-            <Nav pullRight>
-              <NavItem className = "single"><NavLink to = "/Single">Single</NavLink></NavItem>
+            <Nav>
+              <NavItem className = "single"><NavLink font to = "/Single">Single</NavLink></NavItem>
               <NavItem className = "group"><NavLink to = "/Group">Group</NavLink></NavItem>
             </Nav>
         </Navbar>

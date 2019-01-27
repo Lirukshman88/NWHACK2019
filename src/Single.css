@@ -1,7 +1,6 @@
 .container {
     max-width: 550px;
     max-height: 600px;
-    
 }
 
 .card{
@@ -20,7 +19,6 @@
 }
 
 .call{
-    
     width: 30%;
     background-color:white;
 }
@@ -30,25 +28,23 @@
 }
 
 
-  .button2 {
-      margin-left : 130px;
-      width: 20%;
-      background-color : white;
-      border: 1px;     
-      margin-top: 25px;
-      border-radius: 8px;
-      opacity: 0.8;
-      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-  }
+.button2 {
+    margin-left : 130px;
+    width: 20%;
+    background-color : white;
+    border: 1px;     
+    margin-top: 25px;
+    border-radius: 8px;
+    opacity: 0.8;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
   
-  .button2:hover {
+.button2:hover {
     border: 2px solid #4CAF50;
     background-color : white;
+}
 
-  }
-
-
-  .button3 {
+.button3 {
     margin-left : 20px;   
     background-color: white;
     width: 20%;
@@ -63,5 +59,4 @@
 .button3:hover {
     border: 2px solid red ;
     background-color : white;
-
 }

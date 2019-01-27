@@ -7,15 +7,38 @@
     border-radius: 25px;
 }
 
-.skip{
+.skip {
+    margin-left : 130px;
+    width: 20%;
+    background-color : white;
+    border: 1px;     
     margin-top: 25px;
-    vertical-align: right;
+    border-radius: 8px;
+    opacity: 0.8;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-.go{
-    margin-top: 25px;
-    float: right;
+.skip:hover {
+  border: 2px solid #4CAF50;
+  background-color : white;
 }
+
+.go {
+  margin-left : 20px;   
+  background-color: white;
+  width: 20%;
+  border: 1px;    
+  margin-top: 25px;
+  border-radius: 8px;
+  opacity: 0.8;
+  /*transition: 0.5s;*/
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+.go:hover {
+      border: 2px solid red ;
+      background-color : white;
+  }
 
 .stars{
     padding-bottom: 10px;
@@ -27,9 +50,14 @@
 }
 
 .price{
-    color: rgb(254, 27, 7);
+    color: white;
 }
 
-.call {
+.phone{
+    width: 30%;
     background-color:white;
+}
+
+.phone:hover {
+    background-color : white;
 }
