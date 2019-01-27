@@ -16,6 +16,7 @@ class Single extends Component {
       address: null,
       number: null,
       websiteURL: null,
+      price: "$$$$",
       allItems: [],
       term: "entertainment", // can be entertainment or food
       loc: "vancouver, bc",
@@ -55,7 +56,7 @@ class Single extends Component {
           <CardSubtitle className = "subtitle">Address</CardSubtitle>
           <p>{this.state.price}</p>
           <Button className = "call"><a href = {telephone}><font color="blue">Call</font></a></Button>
-          
+
 
 
         </CardBody>
