@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import { Button} from 'react-bootstrap';
 import './App.css';
 
 class App extends Component {
@@ -9,16 +10,14 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            Welcome to INSERTAPPNAME
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <p>            
+            <Button class = "singlePerson" bsStyle = "primary">1 person</Button>
+          </p>
+          <p>
+            <Button class = "groupMode" bsStyle = "primary">Group mode</Button>
+          </p>
         </header>
       </div>
     );
