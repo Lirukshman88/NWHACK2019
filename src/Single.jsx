@@ -12,7 +12,7 @@ class Single extends Component {
     this.state = {
       name: null,
       imageURL:null,
-      rating : 5,
+      rating : null,
       address: null,
       number: null,
       websiteURL: null,
