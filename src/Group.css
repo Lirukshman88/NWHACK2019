@@ -1,0 +1,27 @@
+.container{
+  max-width: 500px;
+  max-height: 200px;
+}
+
+.card{
+    border-radius: 25px;
+}
+
+.skip{
+    margin-top: 25px;
+    vertical-align: right;
+}
+
+.go{
+    margin-top: 25px;
+    float: right;
+}
+
+.stars{
+    padding-bottom: 10px;
+    float: right;
+}
+
+.subtitle{
+    padding-bottom: 10px;
+}
