@@ -30,7 +30,7 @@ class Single extends Component {
 
   getData = () => {
 
-    var url = new URL("http://localhost:3000/businesses/"),
+    var url = new URL("http://nwhacks2019-nwhacks2019.7e14.starter-us-west-2.openshiftapps.com/businesses/"),
     params = { term: this.state.term, limit: this.state.limit, loc: this.state.loc }
     Object.keys(params).forEach(key => url.searchParams.append(key, params[key]))
 
