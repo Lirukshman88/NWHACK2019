@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <HashRouter>
       <div>
-        <Navbar fluid>
+        <Navbar secondary fluid>
             <Navbar.Header>
               <Navbar.Brand>
                 <NavLink to = "/">Home</NavLink>

@@ -49,14 +49,14 @@ class Single extends Component {
     this.setState({index: this.state.index == this.state.limit - 1 ? this.state.index : this.state.index + 1});
   }
 
-  render () {    
+  render () {
     if (this.state.loaded){
       const telephone = "tel:" + this.state.allItems[this.state.index].phone;
       console.log("this will be done first");
       return (
       <div className = "container">
         <Card className = "card" body inverse style={{ backgroundColor: '#333', borderColor: '#333' }} >
-          <CardImg top width="100%" src={this.state.allItems[this.state.index].image_url} alt="Card image cap" />
+          <CardImg top width="100rem" height="300rem" src={this.state.allItems[this.state.index].image_url} alt="Card image cap" />
           <CardBody>
             <CardTitle className = "title"><b> <font size="6">{this.state.allItems[this.state.index].name}</font></b></CardTitle>
             <ReactStars className = "stars" value = {this.state.allItems[this.state.index].rating} edit = {false}/>
