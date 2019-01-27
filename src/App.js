@@ -7,11 +7,13 @@ import HomeScreen from "./HomeScreen.jsx";
 import './App.css';
 
 class App extends Component {
+
   render() {
+
     return (
       <HashRouter>
       <div>
-        <Navbar inverse>
+        <Navbar>
             <Navbar.Header>
               <Navbar.Brand>
                 <NavLink to = "/">Home</NavLink>
@@ -31,6 +33,7 @@ class App extends Component {
         </HashRouter>
     );
   }
+
 }
 
 export default App;

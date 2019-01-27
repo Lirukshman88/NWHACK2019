@@ -14,9 +14,34 @@ class Single extends Component {
       rating : null,
       address: null,
       number: null,
-      websiteURL: null 
+      websiteURL: null,
+      allItems: [],
+      term: "entertainment", // can be entertainment or food
+      loc: "vancouver, bc",
+      limit: 10
     }
   }
+
+  componentDidMount() {
+    {this.getData()}
+  }
+
+  getData = () => {
+
+    var url = new URL("http://localhost:3000/businesses/"),
+    params = { term: this.state.term, limit: this.state.limit, loc: this.state.loc }
+    Object.keys(params).forEach(key => url.searchParams.append(key, params[key]))
+
+    fetch(url , {
+      method: 'POST'
+    })
+    .then(results => {
+      this.setState({allItems: results});
+      console.log(this.state.allItems);
+    })
+
+  }
+
   render () {
   return (
     <div class = "container">
@@ -29,12 +54,13 @@ class Single extends Component {
           <p><Button>Call</Button>
           <Button className = "button1">Website</Button></p>
 
-          
+
         </CardBody>
       </Card>
       <p><Button className = "button2">Thumbs Up</Button>
           <Button className = "button3">Thumbs Down</Button></p>
     </div>
+
   );
 };
 }
