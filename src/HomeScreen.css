@@ -5,3 +5,19 @@
 .label{
     color:white;
 }
+
+.welcome{
+    color:white;
+    text-align: center;
+    font-size: 70px;
+}
+
+.bigContainer{
+    max-width: 500px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.submit{
+    margin-bottom: 10px;
+}
