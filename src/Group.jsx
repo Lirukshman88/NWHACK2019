@@ -4,8 +4,6 @@ import { Card, CardImg, CardBody,
 import './Group.css';
 import ReactStars from 'react-stars';
 
-
-
 class Group extends Component {
   constructor(props) {
     super(props);
@@ -49,6 +47,7 @@ class Group extends Component {
     console.log(this.state.index);
     this.setState({index: this.state.index == this.state.limit - 1 ? this.state.index : this.state.index + 1});
   }
+  
   render() {
     if(this.state.loaded){
       const telephone = "tel:" + this.state.allItems[this.state.index].phone;
