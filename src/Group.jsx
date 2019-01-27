@@ -47,7 +47,7 @@ class Group extends Component {
     console.log(this.state.index);
     this.setState({index: this.state.index == this.state.limit - 1 ? this.state.index : this.state.index + 1});
   }
-  
+
   render() {
     if(this.state.loaded){
       const telephone = "tel:" + this.state.allItems[this.state.index].phone;
@@ -55,7 +55,7 @@ class Group extends Component {
       return (
         <div class = "container" >
           <Card className = "card"body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}>
-            <CardImg className = "image" top width="100%" src={this.state.allItems[this.state.index].image_url} alt="Card image cap" />
+            <CardImg className = "image" width="100rem" height="300rem" src={this.state.allItems[this.state.index].image_url} alt="Card image cap" />
             <CardBody>
               <CardTitle><b><font size="6">{this.state.allItems[this.state.index].name}</font></b></CardTitle>
               <ReactStars className = "stars" value = {this.state.allItems[this.state.index].rating} edit = {false}/>
