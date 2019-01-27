@@ -49,7 +49,7 @@ class Group extends Component {
   render() {
     const telephone = "tel:" + this.state.phone;
     return (
-      <div class = "container">
+      <div class = "container" >
         <Card className = "card"body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}>
           <CardImg top width="100%" src={this.state.imageURL} alt="Card image cap" />
           <CardBody>
