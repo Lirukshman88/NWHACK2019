@@ -6,6 +6,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://c.pxhere.com/photos/99/f6/background_food_tasty_olives_wooden_background_cooking_plate_kitchen-1369813.jpg!d");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 code {

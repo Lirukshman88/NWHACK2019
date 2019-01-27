@@ -13,15 +13,15 @@ class App extends Component {
     return (
       <HashRouter>
       <div>
-        <Navbar>
+        <Navbar fluid>
             <Navbar.Header>
               <Navbar.Brand>
                 <NavLink to = "/">Home</NavLink>
               </Navbar.Brand>
             </Navbar.Header>
-            <Nav>
-              <NavItem><NavLink to = "/Single">Single</NavLink></NavItem>
-              <NavItem><NavLink to = "/Group">Group</NavLink></NavItem>
+            <Nav pullRight>
+              <NavItem className = "single"><NavLink to = "/Single">Single</NavLink></NavItem>
+              <NavItem className = "group"><NavLink to = "/Group">Group</NavLink></NavItem>
             </Nav>
         </Navbar>
             <Switch>

@@ -1,23 +1,18 @@
 import React, { Component } from 'react';
-import {Button} from 'react-bootstrap';
-import logo from './logo.svg';
+import './HomeScreen.css';
 
 class HomeScreen extends Component {
   render() {
     return (
       <div className="HomeScreen">
-      <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Welcome to INSERTAPPNAME
-          </p>
-          <p>
-            <Button class = "singlePerson" bsStyle = "primary">1 person</Button>
-          </p>
-          <p>
-            <Button class = "groupMode" bsStyle = "primary">Group Mode</Button>
-          </p>
-      </header>
+          <form className = "location" action = "/Single" method = "POST">
+            <label className = "label"><b>
+              Enter a location: </b><br/>
+              <input type="text" name="name" />
+            </label>
+            <br/>
+            <input type="submit" value="Submit" />
+          </form>
       </div>
     );
   }
